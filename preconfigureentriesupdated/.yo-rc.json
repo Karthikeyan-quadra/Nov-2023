@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "preconfiguredentries",
+    "libraryId": "8f7f8873-be04-4b70-b010-a787f7891f65",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "preconfiguredentries",
+    "solutionShortDescription": "preconfiguredentries description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

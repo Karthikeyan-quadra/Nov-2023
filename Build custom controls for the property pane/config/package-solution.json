@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "build-custom-controls-for-the-property-pane-client-side-solution",
+    "id": "3851a3ad-6141-4442-8cbb-2bfbdd92cf55",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "build-custom-controls-for-the-property-pane description"
+      },
+      "longDescription": {
+        "default": "build-custom-controls-for-the-property-pane description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "build-custom-controls-for-the-property-pane Feature",
+        "description": "The feature that activates elements of the build-custom-controls-for-the-property-pane solution.",
+        "id": "bc5a4582-4c45-4c1f-9b47-445a387011e5",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/build-custom-controls-for-the-property-pane.sppkg"
+  }
+}

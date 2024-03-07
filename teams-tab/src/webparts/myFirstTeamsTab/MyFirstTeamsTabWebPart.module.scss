@@ -1,0 +1,95 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.myFirstTeamsTab {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+.welcomeImage {
+  width: 100%;
+  max-width: 420px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+ 
+/* Styles for rows */
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+ 
+/* Styles for columns */
+.column {
+  flex: 1;
+  margin-right: 20px;
+}
+ 
+/* Title */
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+ 
+/* Subtitle */
+.subTitle {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+ 
+/* Description */
+.description {
+  font-size: 14px;
+  color: #444;
+  margin-bottom: 15px;
+}
+ 
+/* Button */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0078d4;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+ 
+.button:hover {
+  background-color: #005a9e;
+}
+ 
+/* Label within the button */
+.label {
+  font-size: 14px;
+}
+
+.links {
+  a {
+    text-decoration: none;
+    color: "[theme:link, default:#03787c]";
+    color: var(--link); // note: CSS Custom Properties support is limited to modern browsers only
+
+    &:hover {
+      text-decoration: underline;
+      color: "[theme:linkHovered, default: #014446]";
+      color: var(--linkHovered); // note: CSS Custom Properties support is limited to modern browsers only
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "singlepart-client-side-solution",
+    "id": "c13d0d96-8b2f-4b46-8e10-53cbba5eb891",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Singlepart description"
+      },
+      "longDescription": {
+        "default": "Singlepart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "singlepart Feature",
+        "description": "The feature that activates elements of the singlepart solution.",
+        "id": "d97c2f2f-a38c-4df9-9217-f681522915ac",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/singlepart.sppkg"
+  }
+}

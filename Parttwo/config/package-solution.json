@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "parttwo-client-side-solution",
+    "id": "025ce6df-8eb1-4477-ae65-ccb7d3225482",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "parttwo description"
+      },
+      "longDescription": {
+        "default": "parttwo description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "parttwo Feature",
+        "description": "The feature that activates elements of the parttwo solution.",
+        "id": "8bd009c0-5ad0-4b45-a272-b3af7314cdd8",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/parttwo.sppkg"
+  }
+}

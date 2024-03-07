@@ -1,0 +1,24 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "e1bb4b40-4163-48a3-afe4-43a82aba738e",
+  "alias": "DocumentcardexampleWebpartWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "supportsFullBleed": true,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "documentcardexample-webpart" },
+    "description": { "default": "documentcardexample-webpart description" },
+    "officeFabricIconFontName": "Sunny",
+    "properties": {
+      "description": "documentcardexample-webpart"
+    }
+  }]
+}

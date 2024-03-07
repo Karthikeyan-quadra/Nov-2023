@@ -1,0 +1,24 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "whichFolder": "subdir",
+    "solutionName": "FirstProject",
+    "componentType": "webpart",
+    "template": "none",
+    "componentName": "HelloWorld",
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "first-project",
+    "libraryId": "b00f2efe-4ab6-4643-891c-74e1339c0597",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionShortDescription": "FirstProject description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "react-cascadingdropdowns",
+    "libraryId": "639e09f0-e091-406f-92a8-5bc4ae3e51d4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "react-cascadingdropdowns",
+    "solutionShortDescription": "react-cascadingdropdowns description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

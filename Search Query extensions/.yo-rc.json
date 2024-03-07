@@ -1,0 +1,22 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "16.18.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.4.1"
+    },
+    "version": "1.16.1",
+    "libraryName": "search-query-extensions",
+    "libraryId": "007c88d9-3bf9-428c-ad10-e06e2cf63da4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "search-query-extensions",
+    "solutionShortDescription": "search-query-extensions description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "extension",
+    "extensionType": "SearchQueryModifier"
+  }
+}

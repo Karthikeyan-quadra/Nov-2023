@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="HelloWorld"
+        Location="ClientSideExtension.SearchQueryModifier"
+        ComponentId="0e9a3829-d385-4ec0-8ecf-2b9b14227e54"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}"/>
+</Elements>

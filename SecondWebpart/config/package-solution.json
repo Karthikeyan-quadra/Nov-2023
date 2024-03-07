@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "secondwebpart-client-side-solution",
+    "id": "bb22572c-19d9-4ded-8cae-9b47eb0c6373",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Secondwebpart description"
+      },
+      "longDescription": {
+        "default": "Secondwebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "secondwebpart Feature",
+        "description": "The feature that activates elements of the secondwebpart solution.",
+        "id": "2b553f13-42e3-434b-82f0-cf9ff6f55e4b",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/secondwebpart.sppkg"
+  }
+}

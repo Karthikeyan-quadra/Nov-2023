@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "my-first-teams-tab-client-side-solution",
+    "id": "460251a8-6537-4811-925e-46119d07ca6b",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "MyFirstTeamsTab description"
+      },
+      "longDescription": {
+        "default": "MyFirstTeamsTab description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "my-first-teams-tab Feature",
+        "description": "The feature that activates elements of the my-first-teams-tab solution.",
+        "id": "13a4fa80-2db4-4a67-8614-c23dd0a98f48",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/my-first-teams-tab.sppkg"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "preconfiguredentries-client-side-solution",
+    "id": "8f7f8873-be04-4b70-b010-a787f7891f65",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "preconfiguredentries description"
+      },
+      "longDescription": {
+        "default": "preconfiguredentries description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "preconfiguredentries Feature",
+        "description": "The feature that activates elements of the preconfiguredentries solution.",
+        "id": "27477693-12c3-485b-a2df-727da3464863",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/preconfiguredentries.sppkg"
+  }
+}

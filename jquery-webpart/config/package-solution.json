@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "jquerywebpart-client-side-solution",
+    "id": "1e514728-bf88-4cc4-a947-44baef4954c1",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "jquerywebpart description"
+      },
+      "longDescription": {
+        "default": "jquerywebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "jquerywebpart Feature",
+        "description": "The feature that activates elements of the jquerywebpart solution.",
+        "id": "1e5c79be-f5f4-45df-840b-13558112bfbf",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/jquerywebpart.sppkg"
+  }
+}

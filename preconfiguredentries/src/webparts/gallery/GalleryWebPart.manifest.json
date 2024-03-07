@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "6a59149a-0dc3-4a23-8932-f3ef2b453769",
+  "alias": "GalleryWebPart",
+  "componentType": "WebPart",
+
+
+  "version": "*",
+  "manifestVersion": 2,
+
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "Gallery" },
+    "description": { "default": "Gallery description" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "Gallery",
+      "listName": "",
+      "order": "",
+      "numberOfItems": 10,
+      "style": ""
+    }
+  }]
+}

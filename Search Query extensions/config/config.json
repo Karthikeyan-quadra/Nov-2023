@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hello-world-search-query-modifier": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/helloWorld/HelloWorldSearchQueryModifier.js",
+          "manifest": "./src/extensions/helloWorld/HelloWorldSearchQueryModifier.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloWorldSearchQueryModifierStrings": "lib/extensions/helloWorld/loc/{locale}.js"
+  }
+}
